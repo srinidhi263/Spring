@@ -8,22 +8,22 @@ public class BinarySearchImpl {
 
 
 @Autowired
-@Qualifier("quick")
-private SortAlg sortAlg;
+//@Qualifier("quick")
+private SortAlg quickSort;
 //constructor injection
    // public BinarySearchImpl(SortAlg sortAlg) {
      //   this.sortAlg = sortAlg;
    // }
 //setter injection
-    public void setSortAlg(SortAlg sortAlg) {
-        this.sortAlg = sortAlg;
-    }
+   // public void setSortAlg(SortAlg sortAlg) {
+    //    this.quickSort = sortAlg;
+   // }
 
     public int binarySearch(int[] numbers, int numberToSearch) {
        // BubbleSortAlg bubbleSort = new BubbleSortAlg();
        // QuickSort quickSort = new QuickSort();
-        int[] sortedNumbers = sortAlg.sort(numbers);
-        System.out.println(sortAlg);
+        int[] sortedNumbers = quickSort.sort(numbers);
+        System.out.println(quickSort);
         return 12;
     }
 }
