@@ -1,6 +1,11 @@
 package com.nseit.spring;
 
-public class QuickSort {
+import org.springframework.stereotype.Component;
 
-    public int[] sort(int[] numbers){ return numbers; }
+public class QuickSort implements SortAlg {
+
+
+    public int[] sort(int[] numbers) {
+        return numbers;
+    }
 }
