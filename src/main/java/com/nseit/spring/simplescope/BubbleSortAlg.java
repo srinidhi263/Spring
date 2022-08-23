@@ -1,6 +1,5 @@
-package com.nseit.spring;
+package com.nseit.spring.simplescope;
 
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 @Component
 
